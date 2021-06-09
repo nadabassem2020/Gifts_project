@@ -1,0 +1,53 @@
+/* ----------  general -------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+.lightBoxContainer {
+    overflow-x: hidden;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+/*---------------- body------------- */
+
+.body {
+    font-family: 'segoe ui light';
+}
+
+
+/* will delete but this to avoid mistake */
+
+.section-space {
+    margin-bottom: 20%;
+}
+
+/*----------- filters--------- */
+
+.filter {
+    background-color: burlywood;
+}
+
+.filter-btn {
+    background-color: gray;
+    width: 35%;
+}
+
+.filter-pluse {
+    font-size: 15px;
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
