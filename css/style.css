@@ -1,0 +1,84 @@
+/* ----------  general -------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+.lightBoxContainer {
+    overflow-x: hidden;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+/*---------------- body------------- */
+
+.body {
+    font-family: 'segoe ui light';
+}
+
+
+/* will delete but this to avoid mistake */
+
+.section-space {
+    margin-bottom: 20%;
+}
+
+
+/*------------shop line----------  */
+
+.item {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.item-img {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.product-data {
+    margin-top: 15px;
+}
+
+.item-icon span {
+    position: absolute;
+}
+
+.product-name {
+    font-size: 18px;
+}
+
+.product-price {
+    font-size: 14px;
+}
+
+.product-author {
+    font-size: 12px;
+}
+
+.fav {
+    top: 10px;
+    right: 8px;
+    font-size: 20px;
+}
+
+.quick_view {
+    top: 50px;
+    right: 8px;
+    font-size: 20px;
+}
+
+.plus-cart {
+    bottom: -14px;
+    right: 8px;
+    font-size: 30px;
+}
