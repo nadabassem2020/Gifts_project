@@ -64,3 +64,42 @@
 .nav-active a , .nav-active:hover a {
     color: #fff !important; 
 }
+
+/* ---------------feature brands slider --------------- */
+.feature-title{
+margin-top: 50px;
+}
+.swiper-container {
+    width: 100%;
+    height: 50%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .brand-swipper img{
+    width: 160px;
+    height: 160px;    
+  }
